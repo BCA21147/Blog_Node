@@ -9,7 +9,7 @@ const cloudinary = require('cloudinary').v2;
 var fileUpload = require('express-fileupload');
 
 var corOpt = {
-  origin: "http://localhost:3000",
+  origin: "https://blog-project-react-js.vercel.app",
   optionsSuccessStatus: 200
 }
 
